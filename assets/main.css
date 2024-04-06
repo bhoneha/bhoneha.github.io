@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 22px;
+}
+
+html{
+    background-color: #ffffff;
+}
+
+strong{
+    color: #b46c00;
+}
+
+main{
+    margin:10px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 5px 2px rgb(131, 131, 131);
+    border-radius: 5px;
+    padding:20px;
+    min-height:75vh;
+}
+
+a{
+    color:rgb(180, 0, 0);
+}
+
+div.post-preview{
+    display:flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    position: relative;
+    max-width:75%;
+    margin:20px;
+    padding:10px;
+    box-shadow: 0px 0px 3px 2px rgba(131, 131, 131, 0.726);
+    max-height: 200px;
+}
+
+
+div.post-preview .post-preview-title{
+    flex:1 40px;
+    font-size: 25px;
+    cursor:pointer;
+}
+
+div.post-preview .post-preview-title:hover{
+    text-decoration: underline #b46c00;
+}
+div.post-preview .post-preview-title a strong{
+    font-family:monospace;
+}
+
+div.post-preview .post-preview-title a{
+    text-decoration: none;
+}
+
+div.post-preview .post-preview-description{
+    flex:2 75px;
+    padding:10px;
+    color:rgb(87, 87, 87);
+    overflow:hidden;
+}
+
+div.post-preview .post-preview-date{
+    flex:1 30px;
+    font-family: monospace;
+    width:fit-content;
+    align-self:flex-end;
+    background-color: #b46c006b;
+    text-align: center;
+    padding:5px;
+    border-radius:2px;
+    border-bottom-right-radius: 5px;
+    border-left:5px solid black;
+}
+
+
